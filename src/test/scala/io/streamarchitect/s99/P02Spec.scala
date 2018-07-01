@@ -33,17 +33,17 @@ class P02Spec extends WordSpecLike with MustMatchers {
 
     "return the penultimate element of a List[A] using list methods" in {
 
-      P01Spec.probe01.init.last mustBe 4
-      P01Spec.probe02.init.last mustBe 4
-      P01Spec.probe03.init.last mustBe 1
+      P02Spec.probe01.init.last mustBe 4
+      P02Spec.probe02.init.last mustBe 4
+      P02Spec.probe03.init.last mustBe 1
 
     }
 
     "return the penultimate element of a List[A] using recursion" in {
 
-      penultimateRecursion(P01Spec.probe01) mustBe 4
-      penultimateRecursion(P01Spec.probe02) mustBe 4
-      penultimateRecursion(P01Spec.probe03) mustBe 1
+      penultimateRecursion(P02Spec.probe01) mustBe 4
+      penultimateRecursion(P02Spec.probe02) mustBe 4
+      penultimateRecursion(P02Spec.probe03) mustBe 1
 
     }
 
